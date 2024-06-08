@@ -1,1 +1,11 @@
-POST http://localhost:5100/
+POST http://localhost:5100/notes/create
+Content-Type: application/json
+
+{
+    "title": "test",
+    "content": "test",
+    "createdAt":"2021"
+}
+
+###
+GET http://localhost:5100/notes/all-notes
